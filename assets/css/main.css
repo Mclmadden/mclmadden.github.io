@@ -3367,3 +3367,34 @@ input, select, textarea {
 			}
 
 	}
+
+/* Custom Style for PDF availability on mobile */
+#pdf-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#iframepdf {
+    width: 100%;
+    height: 1200px;
+    border: none;
+    background: white;
+    border-radius: 4px;
+}
+
+#pdf-fallback {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+/* On mobile, hide the iframe and show the fallback link instead */
+@media (max-width: 768px) {
+    #pdf-container {
+        display: none;
+    }
+    #pdf-fallback {
+        display: block;
+    }
+}
