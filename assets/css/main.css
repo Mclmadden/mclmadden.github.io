@@ -3403,3 +3403,20 @@ input, select, textarea {
 main a, article a{
 	font-weight: 600; 
 }
+
+/* Stretch page to fit screen */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #c0d6fc;
+}
+
+#footer {
+  margin-top: auto;
+}
