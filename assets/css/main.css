@@ -98,9 +98,9 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #d3d4db; /*TEXT COLOR */
+		color: #010c1f; /* #d3d4db; */ /*TEXT COLOR */
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 16pt;
+		font-size: 18pt;
 		font-weight: 300;
 		line-height: 1.65em;
 	}
@@ -110,7 +110,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		color: #37c0fb; /*LINK HIGHLIGHT COLOR*/
+		color: #951cff; /* #37c0fb; */ /*LINK HIGHLIGHT COLOR*/
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -2533,8 +2533,8 @@ input, select, textarea {
 	#header {
 		text-align: center;
 		padding: 80px 0 0 0;
-		background-color: transparent; /* HEADER COLOR #1f1f1f*/
-		background-image: url("../../images/deep_field.jpg");
+		background-color: transparent; /* HEADER COLOR - replaced with banner #1f1f1f */
+		background-image: url("../../images/kitt_peak.jpg"); /* url("../../images/deep_field.jpg"); */
 		background-position: top; /* 50% 40% */
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -2724,11 +2724,11 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #1f1f1f; /* MIDDLE BODY COLOR */
+			background: #c0d6fc /* #1f1f1f; /* MIDDLE BODY COLOR */
 		}
-
+		
 		.wrapper.style2 {
-			background-color: #1f1f1f;
+			background-color: #c0d6fc; /* #1f1f1f; */
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
@@ -2736,7 +2736,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #37c0fb;
+			background-color: #c0d6fc; /* #37c0fb; */
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -3397,4 +3397,9 @@ input, select, textarea {
     #pdf-fallback {
         display: block;
     }
+}
+
+/* Custom Style for bolded hyperlinks */
+main a, article a{
+	font-weight: 600; 
 }
