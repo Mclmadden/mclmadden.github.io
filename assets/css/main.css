@@ -3417,6 +3417,11 @@ html, body {
   background-color: #c0d6fc;
 }
 
+/* #content {
+	flex: 1;
+	background-color: #c0d6fc;
+} */
+
 #footer {
   margin-top: auto;
 }
